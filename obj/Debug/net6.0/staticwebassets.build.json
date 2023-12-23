@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "wuBglR8P563PDvENBjIZe87dNndDQUQwz/1sipVFANg=",
+  "Source": "VezetaApi",
+  "BasePath": "_content/VezetaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VezetaApi\\wwwroot",
+      "Source": "VezetaApi",
+      "ContentRoot": "C:\\Users\\Aya Eltobaly\\source\\repos\\Test_Proj\\Api Test\\VezetaApi\\wwwroot\\",
+      "BasePath": "_content/VezetaApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
