@@ -26,11 +26,11 @@ namespace VezetaApi.Helper
             userManager.CreateAsync(new ApplicationUser
             {
                 UserName = "Aya",
-                Email = "aya.ayman@gmail.com"
+                Email = "admin@gmail.com"
             }, "Awxiokoi6$").GetAwaiter().GetResult();
 
             //check admin exist
-            var AppAdmin = userManager.FindByEmailAsync("aya.ayman.@gmail.com").GetAwaiter().GetResult();
+            var AppAdmin = userManager.FindByEmailAsync("admin@gmail.com").GetAwaiter().GetResult();
 
             //asign role to admin
             if (AppAdmin != null)
